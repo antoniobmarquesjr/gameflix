@@ -43,7 +43,7 @@ Este projeto é uma **demonstração visual**:
 
 ## Créditos e uso de imagens
 
-Projeto realizado em grupo como atividade acadêmica.
+Projeto realizado como atividade acadêmica.
 
 As capas, marcas e demais elementos relacionados a filmes e jogos pertencem a seus respectivos titulares e são utilizados apenas como referência visual e didática. Este projeto não possui vínculo com as empresas responsáveis por esses títulos.
 
