@@ -1,4 +1,4 @@
-# Gameflix 🎮🎬
+# Gameflix
 
 Protótipo acadêmico de um catálogo de **filmes e jogos**, desenvolvido como atividade da disciplina de Front-End.
 
