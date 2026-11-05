@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Entrar | Gameflix</title>
+        <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/catalogo.css">
+    <link rel="stylesheet" href="css/preferencias.css">
+    <link rel="stylesheet" href="css/formularios.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+  </head>
+  <body>
+    <header class="topo">
+      <div class="container cabecalho">
+        <a aria-label="Gameflix - início" class="logo" href="index.html">GAME<span>FLIX</span></a>
+        <nav aria-label="Menu principal" class="menu">
+          <a href="index.html">Início</a>
+          <a href="Preferencia.html#filmes">Filmes</a>
+          <a href="Preferencia.html#jogos">Jogos</a>
+          <a href="Preferencia.html">Explorar gêneros</a>
+        </nav>
+        <div class="conta">
+          <a class="atual" href="LoginGameflix.html">Entrar</a>
+          <a class="cadastrar" href="CadastroGameflix.html">Criar conta</a>
+        </div>
+      </div>
+    </header>
+    <main class="pagina-formulario container">
+      <section class="apresentacao">
+        <span class="etiqueta">SUA PRÓXIMA DESCOBERTA COMEÇA AQUI</span>
+        <h1>Volte para a sua próxima história.</h1>
+        <p>Filmes para maratonar. Jogos para perder a noção do tempo.</p>
+        <div class="capas">
+          <img alt="Capa de Interestelar" src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg">
+          <img alt="Capa de The Witcher 3" src="imagens/jogos/witcher-3.jpg">
+          <img alt="Capa de Matrix" src="https://images.squarespace-cdn.com/content/v1/5ef39ba2909bf936034233da/1593037171146-7C6NKU2VV4QK6TS3CBUO/TheMatrix.jpg">
+        </div>
+      </section>
+      <section class="formulario">
+        <h2>Entrar</h2>
+        <p>Acesse a demonstração do Gameflix.</p>
+        <form action="Preferencia.html" method="get">
+          <label for="email-login">E-mail</label>
+          <input autocomplete="email" id="email-login" placeholder="seuemail@exemplo.com" required="" type="email">
+          <label for="senha-login">Senha</label>
+          <input autocomplete="current-password" id="senha-login" placeholder="Digite sua senha" required="" type="password">
+          <button class="botao vermelho" type="submit">Continuar <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="alternativa">Ainda não tem uma conta? <a href="CadastroGameflix.html">Cadastre-se</a></p>
+        <p class="nota">Protótipo acadêmico. Os dados não são verificados nem armazenados; use informações fictícias.</p>
+      </section>
+    </main>
+  </body>
+</html>

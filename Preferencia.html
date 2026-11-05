@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Escolha suas preferências | Gameflix</title>
+        <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/catalogo.css">
+    <link rel="stylesheet" href="css/preferencias.css">
+    <link rel="stylesheet" href="css/formularios.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+  </head>
+  <body>
+    <header class="topo">
+      <div class="container cabecalho">
+        <a aria-label="Gameflix - início" class="logo" href="index.html">GAME<span>FLIX</span></a>
+        <nav aria-label="Menu principal" class="menu">
+          <a href="index.html">Início</a>
+          <a href="Preferencia.html#filmes">Filmes</a>
+          <a href="Preferencia.html#jogos">Jogos</a>
+          <a class="atual" href="Preferencia.html">Explorar gêneros</a>
+        </nav>
+        <div class="conta">
+          <a href="LoginGameflix.html">Entrar</a>
+          <a class="cadastrar" href="CadastroGameflix.html">Criar conta</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="introducao">
+        <p class="etiqueta">SEU CATÁLOGO</p>
+        <h1>O que combina com você?</h1>
+        <p>Navegue pelos gêneros e veja sugestões de filmes e jogos.</p>
+      </div>
+      <div class="preferencias">
+        <aside aria-label="Navegação por gênero" class="filtros">
+          <h2>Escolha um gênero</h2>
+          <p>Clique em um gênero para ir até uma sugestão do catálogo.</p>
+          <h3>Filmes</h3>
+          <ul class="generos">
+            <li><a href="#titulo-matrix">Ação</a></li>
+            <li><a href="#titulo-homens-de-preto">Comédia</a></li>
+            <li><a href="#titulo-interestelar">Drama</a></li>
+            <li><a href="#titulo-it">Terror</a></li>
+            <li><a href="#titulo-titanic">Romance</a></li>
+            <li><a href="#titulo-interestelar">Ficção científica</a></li>
+          </ul>
+          <h3>Jogos</h3>
+          <ul class="generos">
+            <li><a href="#titulo-witcher">RPG</a></li>
+            <li><a href="#titulo-doom">FPS</a></li>
+            <li><a href="#titulo-resident-evil">Terror</a></li>
+            <li><a href="#titulo-mario">Arcade</a></li>
+            <li><a href="#titulo-forza">Corrida</a></li>
+            <li><a href="#titulo-minecraft">Sobrevivência</a></li>
+          </ul>
+        </aside>
+        <div class="resultados">
+          <section class="grupo" id="filmes">
+            <div class="titulo-secao">
+              <div>
+                <p class="etiqueta">SUA PRÓXIMA SESSÃO</p>
+                <h2>Filmes</h2>
+              </div>
+              <span>06 TÍTULOS</span>
+            </div>
+            <div class="lista grade">
+              <article class="card" id="titulo-interestelar">
+                <img alt="Capa de Interestelar" src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg">
+                <h3>Interestelar</h3>
+                <p>2014 • Ficção • Drama</p>
+                <p>Uma missão muito além da Terra.</p>
+              </article>
+              <article class="card" id="titulo-matrix">
+                <img alt="Capa de Matrix" src="https://images.squarespace-cdn.com/content/v1/5ef39ba2909bf936034233da/1593037171146-7C6NKU2VV4QK6TS3CBUO/TheMatrix.jpg">
+                <h3>Matrix</h3>
+                <p>1999 • Ação • Ficção</p>
+                <p>A verdade pode mudar tudo.</p>
+              </article>
+              <article class="card" id="titulo-10-coisas">
+                <img alt="Capa de 10 Coisas que Eu Odeio em Você" src="https://filmartgallery.com/cdn/shop/files/10-Things-I-Hate-About-You-Vintage-Movie-Poster-Original.jpg?v=1743650431">
+                <h3>10 Coisas que Eu Odeio em Você</h3>
+                <p>1999 • Comédia • Romance</p>
+                <p>Uma comédia romântica clássica.</p>
+              </article>
+              <article class="card" id="titulo-it">
+                <img alt="Capa de It: A Coisa" src="https://cdn.posteritati.com/posters/000/000/053/969/it-md-web.jpg">
+                <h3>It: A Coisa</h3>
+                <p>2017 • Terror</p>
+                <p>O medo toma conta de Derry.</p>
+              </article>
+              <article class="card" id="titulo-titanic">
+                <img alt="Capa de Titanic" src="https://www.originalfilmart.com/cdn/shop/products/titanic_1997_styleA_original_film_art_ff6e5718-c79d-4bfd-850b-1068970032f2_5000x.jpg?v=1668710472">
+                <h3>Titanic</h3>
+                <p>1997 • Drama • Romance</p>
+                <p>Amor em uma travessia inesquecível.</p>
+              </article>
+              <article class="card" id="titulo-homens-de-preto">
+                <img alt="Capa de Homens de Preto" src="https://www.originalfilmart.com/cdn/shop/products/men_in_black_1997_original_film_art_5000x.jpg?v=1551787704">
+                <h3>Homens de Preto</h3>
+                <p>1997 • Ação • Comédia</p>
+                <p>Agentes contra ameaças de outro mundo.</p>
+              </article>
+            </div>
+          </section>
+          <section class="grupo" id="jogos">
+            <div class="titulo-secao">
+              <div>
+                <p class="etiqueta">ESCOLHA SUA AVENTURA</p>
+                <h2>Jogos</h2>
+              </div>
+              <span>06 TÍTULOS</span>
+            </div>
+            <div class="lista grade">
+              <article class="card" id="titulo-witcher">
+                <img alt="Capa de The Witcher 3" src="imagens/jogos/witcher-3.jpg">
+                <h3>The Witcher 3</h3>
+                <p>2015 • RPG</p>
+                <p>Um mundo aberto cheio de escolhas.</p>
+              </article>
+              <article class="card" id="titulo-doom">
+                <img alt="Capa de DOOM Eternal" src="imagens/jogos/doom-eternal.jpg">
+                <h3>DOOM Eternal</h3>
+                <p>2020 • FPS</p>
+                <p>Combate rápido e intenso.</p>
+              </article>
+              <article class="card" id="titulo-resident-evil">
+                <img alt="Capa de Resident Evil 2" src="imagens/jogos/resident-evil-2.jpg">
+                <h3>Resident Evil 2</h3>
+                <p>2019 • Terror • Sobrevivência</p>
+                <p>Sobreviva a Raccoon City.</p>
+              </article>
+              <article class="card" id="titulo-forza">
+                <img alt="Capa de Forza Horizon 5" src="imagens/jogos/forza-horizon-5.jpg">
+                <h3>Forza Horizon 5</h3>
+                <p>2021 • Corrida • Arcade</p>
+                <p>Um festival de velocidade.</p>
+              </article>
+              <article class="card" id="titulo-mario">
+                <img alt="Capa de Super Mario Bros. Wonder" src="imagens/jogos/super-mario-wonder.jpg">
+                <h3>Super Mario Bros. Wonder</h3>
+                <p>2023 • Arcade</p>
+                <p>Plataforma com muitas surpresas.</p>
+              </article>
+              <article class="card" id="titulo-minecraft">
+                <img alt="Capa de Minecraft" src="imagens/jogos/minecraft.jpg">
+                <h3>Minecraft</h3>
+                <p>2011 • Sobrevivência • RPG</p>
+                <p>Explore, construa e sobreviva.</p>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Criar conta | Gameflix</title>
+        <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/catalogo.css">
+    <link rel="stylesheet" href="css/preferencias.css">
+    <link rel="stylesheet" href="css/formularios.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+  </head>
+  <body>
+    <header class="topo">
+      <div class="container cabecalho">
+        <a aria-label="Gameflix - início" class="logo" href="index.html">GAME<span>FLIX</span></a>
+        <nav aria-label="Menu principal" class="menu">
+          <a href="index.html">Início</a>
+          <a href="Preferencia.html#filmes">Filmes</a>
+          <a href="Preferencia.html#jogos">Jogos</a>
+          <a href="Preferencia.html">Explorar gêneros</a>
+        </nav>
+        <div class="conta">
+          <a href="LoginGameflix.html">Entrar</a>
+          <a class="cadastrar atual" href="CadastroGameflix.html">Criar conta</a>
+        </div>
+      </div>
+    </header>
+    <main class="pagina-formulario container">
+      <section class="apresentacao">
+        <span class="etiqueta">CADA PESSOA, UM GOSTO</span>
+        <h1>Um catálogo com a sua cara.</h1>
+        <p>Crie seu perfil de demonstração e conheça filmes e jogos por gênero.</p>
+        <div class="capas">
+          <img alt="Capa de Resident Evil 2" src="imagens/jogos/resident-evil-2.jpg">
+          <img alt="Capa de 10 Coisas que Eu Odeio em Você" src="https://filmartgallery.com/cdn/shop/files/10-Things-I-Hate-About-You-Vintage-Movie-Poster-Original.jpg?v=1743650431">
+          <img alt="Capa de Forza Horizon 5" src="imagens/jogos/forza-horizon-5.jpg">
+        </div>
+      </section>
+      <section class="formulario">
+        <h2>Criar conta</h2>
+        <p>Comece com algumas informações.</p>
+        <form action="Preferencia.html" method="get">
+          <label for="nome">Nome</label>
+          <input autocomplete="name" id="nome" placeholder="Seu nome" required="" type="text">
+          <label for="email">E-mail</label>
+          <input autocomplete="email" id="email" placeholder="seuemail@exemplo.com" required="" type="email">
+          <label for="senha">Senha</label>
+          <input autocomplete="new-password" id="senha" minlength="6" placeholder="Crie uma senha" required="" type="password">
+          <label for="nascimento">Data de nascimento</label>
+          <input autocomplete="bday" id="nascimento" required="" type="date">
+          <button class="botao vermelho" type="submit">Continuar para preferências<span aria-hidden="true">→</span></button>
+        </form>
+        <p class="alternativa">Já tem uma conta? <a href="LoginGameflix.html">Entrar</a></p>
+        <p class="nota">Demonstração visual. Não existe cadastro real; use informações fictícias.</p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.destaque {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #1b1b22;
+}
+.imagem-destaque { width: 35%; height: 360px; object-fit: cover; }
+.texto-destaque { width: 60%; padding: 40px 0; }
+.titulo-destaque { font-size: 52px; margin: 12px 0; }
+.detalhes, .acoes { display: flex; flex-wrap: wrap; gap: 14px; }
+.detalhes { font-size: 14px; }
+.resumo { max-width: 500px; line-height: 1.5; }
+.secao { padding-top: 35px; }
+.lista { display: grid; grid-template-columns: repeat(6, 1fr); gap: 15px; }
+.card { min-width: 0; }
+.card img { display: block; width: 100%; height: 265px; object-fit: cover; background-color: #24242a; }
+.card h3 { font-size: 15px; margin: 9px 0 5px; }
+.card p { margin: 0; color: #bcbcc2; font-size: 13px; line-height: 1.5; }
+.convite { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-top: 40px; padding: 25px; background-color: #23232a; border-left: 4px solid #e50914; }
+.convite h2 { margin: 8px 0; }
+.convite p { margin: 0; }
+.sobre { padding: 24px 0; border-top: 1px solid #444; }

@@ -1,0 +1,15 @@
+.pagina-formulario { display: flex; align-items: center; gap: 50px; padding-top: 50px; padding-bottom: 50px; }
+.apresentacao { flex: 1; }
+.apresentacao h1 { font-size: 42px; }
+.apresentacao p { line-height: 1.5; }
+.capas { display: flex; gap: 10px; }
+.capas img { width: 30%; height: 160px; object-fit: cover; }
+.formulario { width: 400px; padding: 30px; background-color: #222229; }
+.formulario h2 { margin-top: 0; }
+.formulario p { color: #bdbdc3; }
+.formulario form { display: flex; flex-direction: column; gap: 8px; }
+.formulario input { margin-bottom: 10px; padding: 11px; background-color: #111115; color: white; border: 1px solid #777; }
+.formulario button { border: none; cursor: pointer; font-size: 16px; }
+.alternativa { text-align: center; }
+.alternativa a { text-decoration: underline; }
+.nota { font-size: 12px; }

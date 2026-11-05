@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { margin: 0; background-color: #111115; color: white; font-family: Arial, sans-serif; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; }
+.container { width: 92%; max-width: 1200px; margin: auto; }
+.topo { background-color: #09090c; border-bottom: 1px solid #333; }
+.cabecalho { display: flex; align-items: center; gap: 24px; padding: 18px 0; }
+.logo { color: #e50914; font-size: 25px; font-weight: bold; }
+.logo span { color: white; }
+.menu, .conta { display: flex; align-items: center; gap: 18px; font-size: 14px; }
+.conta { margin-left: auto; }
+.cadastrar, .vermelho { background-color: #c8101d; color: white; }
+.cadastrar { padding: 9px 12px; }
+.atual { text-decoration: underline; }
+.botao { display: inline-block; padding: 12px 18px; font-weight: bold; }
+.branco { background-color: white; color: #111; }
+.cinza { background-color: #444; color: white; }
+.etiqueta { color: #f0444e; font-size: 12px; font-weight: bold; }
+.titulo-secao { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.titulo-secao h2 { margin-top: 0; }
+.titulo-secao a { font-size: 14px; }

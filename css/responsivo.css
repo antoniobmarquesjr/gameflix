@@ -1,0 +1,22 @@
+@media (max-width: 900px) {
+    .cabecalho { flex-wrap: wrap; }
+    .lista { grid-template-columns: repeat(3, 1fr); }
+    .grade { grid-template-columns: repeat(2, 1fr); }
+    .titulo-destaque { font-size: 40px; }
+    .pagina-formulario { gap: 25px; }
+}
+@media (max-width: 600px) {
+    .cabecalho { gap: 12px; }
+    .menu { width: 100%; order: 3; flex-wrap: wrap; gap: 12px; }
+    .conta { margin-left: auto; }
+    .destaque { flex-direction: column; }
+    .imagem-destaque { width: 100%; height: 180px; }
+    .texto-destaque { width: 92%; padding: 20px 0 30px; }
+    .titulo-destaque { font-size: 34px; }
+    .lista, .grade { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .card img { height: 220px; }
+    .convite, .preferencias, .pagina-formulario { flex-direction: column; align-items: stretch; }
+    .filtros, .resultados, .formulario { width: 100%; }
+    .apresentacao h1 { font-size: 32px; }
+    .capas { display: none; }
+}
